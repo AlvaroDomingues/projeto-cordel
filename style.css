@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
+
+header{
+  background-color: black;
+  color: white;
+  height: 140px;
+  margin-top: -20px;
+  padding-top: 20px;
+  text-align: center;
+}
+
+header > h1{
+  font-variant: small-caps;
+  padding-top: 50px;
+}
+
+header > p{
+  padding-top: 5px;
+}
+section{
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+  line-height: 2em;
+  
+}
+
+section > p{
+  padding-bottom: 2em;
+  
+}
+
+#branco{
+  height: 400px;
+  border: 1px;
+  border: solid 1px;
+  padding-left: 30px;
+
+  
+}
+#imagem{
+  
+  background-color: black;
+  height: 400px;
+  border: 1px;
+  border: solid 1px;
+  padding-left: 30px;
+  margin-top: -18px;
+  box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.384);
+  background-attachment: fixed;
+}
+
+#branco > p{
+  
+  font-family: 'Sriracha', cursive;
+}
+
+#imagem > p{
+  background-color: rgba(0, 0, 0, 0.342);
+  width: 190px;
+  font-family: 'Sriracha', cursive;
+}
+
+#imagem > p{
+  text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.534);
+  color: white;
+  
+}
+
+.img01{
+  background-image: url(imagens/background001.jpg);
+  background-position: right center;
+  background-size: cover;
+}
+
+.img02{
+  background-image: url(imagens/background002.jpg);
+  background-size: cover;
+}
+
+.secundario{
+  margin-top: -18px;
+}
+
+footer{
+  background-color: black;
+  color: white;
+  text-align: center;
+}
